@@ -1,0 +1,25 @@
+{
+  "name": "emotional-wellness-scheduler",
+  "version": "1.0.0",
+  "description": "emotional-wellness-scheduler",
+  "main": "index.js",
+  "scripts": {
+    "start": "NODE_ENV=dev node notifications.scheduler.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/erwin-io/emotional-wellness-scheduler.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/erwin-io/emotional-wellness-scheduler/issues"
+  },
+  "homepage": "https://github.com/erwin-io/emotional-wellness-scheduler#readme",
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "request": "^2.88.2"
+  }
+}
